@@ -1,0 +1,36 @@
+{
+  "name": "conekta-api",
+  "version": "0.2.0",
+  "description": "Complete API for Conekta's REST service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlosascari/conekta-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosascari/conekta-api/issues"
+  },
+  "keywords": [
+    "conekta",
+    "conekta api",
+    "conekta api 0.3",
+    "payment service",
+    "online charging service"
+  ],
+  "author": {
+    "name": "Ascari Gutierrez Hermosillo",
+    "email": "carlos.ascari.x@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.55.0"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  }
+}
